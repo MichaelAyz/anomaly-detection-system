@@ -177,7 +177,7 @@ Follow these steps to deploy the full stack on a fresh Ubuntu 24.04 VPS:
 
 ## Blog Post
 
-[https://YOUR_BLOG_POST_URL_HERE](https://YOUR_BLOG_POST_URL_HERE) — will fill this in after publishing.
+https://medium.com/@michaelayozie15/my-server-was-under-attack-f36b888d2fa3
 
 ## GitHub Repository
 
