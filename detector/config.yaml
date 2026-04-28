@@ -1,0 +1,16 @@
+log_path: /var/lib/docker/volumes/HNG-nginx-logs/_data/hng-access.log
+sliding_window_seconds: 60
+baseline_window_minutes: 30
+baseline_recalc_interval_seconds: 60
+zscore_threshold: 3.0
+rate_multiplier_threshold: 5.0
+error_surge_multiplier: 3.0
+error_surge_zscore_threshold: 2.0
+error_surge_rate_multiplier: 3.0
+min_baseline_samples: 10
+baseline_floor_rps: 0.1
+ban_schedule_minutes: [10, 30, 120]
+dashboard_port: 8080
+dashboard_refresh_seconds: 3
+slack_webhook_url: "https://hooks.slack.com/services/YOUR/WEBHOOK/HERE
+audit_log_path: /var/log/hng-detector/audit.log
