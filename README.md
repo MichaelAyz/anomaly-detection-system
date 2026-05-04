@@ -1,4 +1,4 @@
-# HNG Anomaly Detector
+# Anomaly Detection System
 
 This project is a real-time HTTP traffic anomaly detection engine that watches Nginx access logs, learns normal traffic patterns, detects attacks using statistical methods, blocks malicious IPs via iptables, and sends Slack alerts. Built for cloud.ng, it is designed to run securely alongside a Nextcloud Docker deployment to protect the publicly accessible cloud storage platform from aggressive anomalies and traffic spikes.
 
